@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+          http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context-3.0.xsd
+          http://www.springframework.org/schema/aop
+          http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"
+       default-autowire="byName">
+
+    <context:component-scan base-package="com.zhou.base.*" />
+    <bean id="greetingProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="interfaces" value=" com.zhou.base.Test.Love"/>
+        <property name="target" ref="greetingImpl"/>
+        <property name="interceptorNames" value="loveAdvice"/>
+        <!--<property name="proxyTargetClass" value="true"/>   &lt;!&ndash; 代理目标类，true即使用CGLib代理；否则用JDK动态代理&ndash;&gt;-->
+        <property name="optimize" value="true"></property>  <!--optimize意思是对代理生成策略是否优化，true表示如果目标类有接口则代理接口（JDK动态代理），如果没有则代理类（CGLib动态代理），这样便可以取代前面强制代理类的proxyTargetClass属性-->
+    </bean>
+
+</beans>
