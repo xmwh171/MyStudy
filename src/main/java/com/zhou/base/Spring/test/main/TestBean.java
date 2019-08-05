@@ -1,5 +1,7 @@
 package com.zhou.base.Spring.test.main;
 
+import com.zhou.base.Spring.test.entity.Person;
+import com.zhou.base.Spring.test.entity.Student;
 import org.junit.Test;
 
 /**
