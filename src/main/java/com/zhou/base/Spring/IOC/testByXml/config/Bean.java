@@ -1,4 +1,4 @@
-package com.zhou.base.Spring.test.config;
+package com.zhou.base.Spring.IOC.testByXml.config;
 
 import java.util.ArrayList;
 import java.util.List;

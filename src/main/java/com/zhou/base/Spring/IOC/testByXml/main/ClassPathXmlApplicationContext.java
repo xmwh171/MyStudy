@@ -1,8 +1,8 @@
-package com.zhou.base.Spring.test.main;
+package com.zhou.base.Spring.IOC.testByXml.main;
 
-import com.zhou.base.Spring.test.config.Bean;
-import com.zhou.base.Spring.test.config.Property;
-import com.zhou.base.Spring.test.config.parse.ConfigManager;
+import com.zhou.base.Spring.IOC.testByXml.config.Bean;
+import com.zhou.base.Spring.IOC.testByXml.config.Property;
+import com.zhou.base.Spring.IOC.testByXml.config.parse.ConfigManager;
 import org.apache.commons.beanutils.BeanUtils;
 
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.zhou.base.Spring.testByInject;
+package com.zhou.base.Spring.IOC.testByInject;
 
 /**
  * @Description
@@ -8,7 +8,7 @@ package com.zhou.base.Spring.testByInject;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-    //  test();
+     // test();
       test2();
     }
 

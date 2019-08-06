@@ -1,4 +1,4 @@
-package com.zhou.base.Spring.testByInject;
+package com.zhou.base.Spring.IOC.testByInject;
 
 import java.lang.reflect.Field;
 import java.util.Map;
@@ -10,6 +10,7 @@ import java.util.Map;
  */
 @Component
 public class UserController {
+
     @Inject
     private UserService userService;
 
@@ -34,7 +35,7 @@ public class UserController {
     public void testInject() throws Exception {
         Map<Class<?>, Object> map = IocContext.applicationContext;
         for (Map.Entry<Class<?>, Object> entry : map.entrySet()) {
-            if(entry.getKey().getName().equals("com.zhou.base.Spring.testByInject.UserController")){
+            if(entry.getKey().getName().equals("com.zhou.base.Spring.IOC.testByInject.UserController")){
                 Class<?> clazz = entry.getKey();
                 Object obj = entry.getValue();
                 Field[] fields = clazz.getDeclaredFields();

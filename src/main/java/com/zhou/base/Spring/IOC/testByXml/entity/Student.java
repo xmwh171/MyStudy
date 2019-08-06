@@ -1,4 +1,4 @@
-package com.zhou.base.Spring.test.entity;
+package com.zhou.base.Spring.IOC.testByXml.entity;
 
 /**
  * @Description

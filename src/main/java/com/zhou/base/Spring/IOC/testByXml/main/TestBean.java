@@ -1,7 +1,7 @@
-package com.zhou.base.Spring.test.main;
+package com.zhou.base.Spring.IOC.testByXml.main;
 
-import com.zhou.base.Spring.test.entity.Person;
-import com.zhou.base.Spring.test.entity.Student;
+import com.zhou.base.Spring.IOC.testByXml.entity.Person;
+import com.zhou.base.Spring.IOC.testByXml.entity.Student;
 import org.junit.Test;
 
 /**

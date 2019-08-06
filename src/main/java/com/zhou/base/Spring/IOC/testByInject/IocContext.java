@@ -1,4 +1,4 @@
-package com.zhou.base.Spring.testByInject;
+package com.zhou.base.Spring.IOC.testByInject;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -15,7 +15,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class IocContext {
     public static final Map<Class<?>, Object> applicationContext = new ConcurrentHashMap<Class<?>, Object>();
     static{
-        String packageName = "com.zhou.base.Spring.testByInject";
+        String packageName = "com.zhou.base.Spring.IOC.testByInject";
         try {
             initBean(packageName);
         } catch (Exception e) {

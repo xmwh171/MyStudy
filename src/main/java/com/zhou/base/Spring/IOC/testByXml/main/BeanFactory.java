@@ -1,4 +1,4 @@
-package com.zhou.base.Spring.test.main;
+package com.zhou.base.Spring.IOC.testByXml.main;
 
 /**
  * @Description

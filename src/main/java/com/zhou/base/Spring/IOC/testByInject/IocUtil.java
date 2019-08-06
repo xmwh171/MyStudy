@@ -1,4 +1,4 @@
-package com.zhou.base.Spring.testByInject;
+package com.zhou.base.Spring.IOC.testByInject;
 
 import java.lang.reflect.Field;
 import java.util.Map;

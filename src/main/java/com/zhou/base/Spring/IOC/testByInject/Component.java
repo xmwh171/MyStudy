@@ -1,4 +1,4 @@
-package com.zhou.base.Spring.testByInject;
+package com.zhou.base.Spring.IOC.testByInject;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
