@@ -1,4 +1,4 @@
-package com.zhou.base.AOP.interfaceMethod;
+package com.zhou.base.Spring.AOP.interfaceMethod;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;

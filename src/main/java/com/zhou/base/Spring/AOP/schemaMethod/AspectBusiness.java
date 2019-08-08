@@ -1,4 +1,4 @@
-package com.zhou.base.AOP.schemaMethod;
+package com.zhou.base.Spring.AOP.schemaMethod;
 
 /**
  * 业务类

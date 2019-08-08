@@ -1,4 +1,4 @@
-package com.zhou.base.reflection;
+package com.zhou.base.Base.reflection;
 
 /**
  * @Description 将反射机制应用于工厂模式

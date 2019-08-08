@@ -1,4 +1,4 @@
-package com.zhou.base.reflection;
+package com.zhou.base.Base.reflection;
 
 import java.io.Serializable;
 import java.lang.reflect.*;
@@ -44,6 +44,7 @@ public class TestReflect implements Serializable {
         System.out.println();
         test10();
         System.out.println();
+        test11();
     }
 
 
@@ -64,7 +65,7 @@ public class TestReflect implements Serializable {
         Class<?> class2 = null;
         Class<?> class3 = null;
         // 一般采用这种形式
-        class1 = Class.forName("com.zhou.base.reflection.TestReflect");
+        class1 = Class.forName("com.zhou.base.Base.reflection.TestReflect");
         class2 = new TestReflect().getClass();
         class3 = TestReflect.class;
         System.out.println("类名称   " + class1.getName());
@@ -78,7 +79,7 @@ public class TestReflect implements Serializable {
      */
     public static void test3() throws Exception {
         Class<?> class1 = null;
-        class1 = Class.forName("com.zhou.base.reflection.User");
+        class1 = Class.forName("com.zhou.base.Base.reflection.User");
         // 第一种方法，实例化默认构造方法，调用set赋值
         User user = (User) class1.newInstance();
         user.setAge(20);
@@ -109,7 +110,7 @@ public class TestReflect implements Serializable {
      * @throws Exception
      */
     public static void test4() throws Exception {
-        Class<?> clazz = Class.forName("com.zhou.base.reflection.TestReflect");
+        Class<?> clazz = Class.forName("com.zhou.base.Base.reflection.TestReflect");
         System.out.println("===============本类属性===============");
         // 取得本类的全部属性
         Field[] field = clazz.getDeclaredFields();
@@ -140,7 +141,7 @@ public class TestReflect implements Serializable {
      * @throws Exception
      */
     public static void test5() throws Exception {
-        Class<?> clazz = Class.forName("com.zhou.base.reflection.TestReflect");
+        Class<?> clazz = Class.forName("com.zhou.base.Base.reflection.TestReflect");
         Method method[] = clazz.getMethods();
         for (int i = 0; i < method.length; ++i) {
             Class<?> returnType = method[i].getReturnType();
@@ -178,7 +179,7 @@ public class TestReflect implements Serializable {
      * @throws Exception
      */
     public static void test6() throws Exception {
-        Class<?> clazz = Class.forName("com.zhou.base.reflection.TestReflect");
+        Class<?> clazz = Class.forName("com.zhou.base.Base.reflection.TestReflect");
         Method method = clazz.getMethod("reflect1");
         method.invoke(clazz.newInstance());
         method = clazz.getMethod("reflect2", int.class, String.class);
@@ -190,7 +191,7 @@ public class TestReflect implements Serializable {
      * @throws Exception
      */
     public static void test7() throws Exception {
-        Class<?> clazz = Class.forName("com.zhou.base.reflection.TestReflect");
+        Class<?> clazz = Class.forName("com.zhou.base.Base.reflection.TestReflect");
         Object obj = clazz.newInstance();
         // 可以直接对 private 的属性赋值
         Field field = clazz.getDeclaredField("proprety");
@@ -257,6 +258,15 @@ public class TestReflect implements Serializable {
         System.out.println();
     }
 
+    /**
+     * 测试类装载继承关系
+     */
+    public static void test11(){
+        ClassLoader loader = Thread.currentThread().getContextClassLoader();
+        System.out.println("当前类classLoad："+loader);
+        System.out.println("父类："+loader.getParent());
+        System.out.println("祖父类："+loader.getParent().getParent());
+    }
 
 
 }

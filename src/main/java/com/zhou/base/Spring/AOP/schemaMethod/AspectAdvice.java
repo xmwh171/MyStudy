@@ -1,39 +1,21 @@
-package com.zhou.base.AOP.aspectjMethod;
+package com.zhou.base.Spring.AOP.schemaMethod;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.*;
-import org.springframework.stereotype.Component;
 
 /**
- * 定义切面
- *
- * @Aspect : 标记为切面类
- * @Pointcut : 指定匹配切点
- * @Before : 指定前置通知，value中指定切入点匹配
- * @AfterReturning ：后置通知，具有可以指定返回值
- * @AfterThrowing ：异常通知
+ * 定义一个切面
  *
  * @author yanbin
  *
  */
-@Component
-@Aspect
 public class AspectAdvice {
-
-    /**
-     * 指定切入点匹配表达式，注意它是以方法的形式进行声明的。
-     */
-    @Pointcut("execution(* com.zhou.base.AOP.*.*(..))")
-    public void anyMethod() {
-    }
 
     /**
      * 前置通知
      *
      * @param jp
      */
-    @Before(value = "execution(* com.zhou.base.AOP.*.*(..))")
     public void doBefore(JoinPoint jp) {
         System.out.println("===========进入before advice============ \n");
 
@@ -52,7 +34,6 @@ public class AspectAdvice {
      * @param result
      *            返回值
      */
-    @AfterReturning(value = "anyMethod()", returning = "result")
     public void doAfter(JoinPoint jp, String result) {
         System.out.println("==========进入after advice=========== \n");
         System.out.println("切入点方法执行完了 \n");
@@ -69,7 +50,6 @@ public class AspectAdvice {
      * @param pjp
      *            连接点
      */
-    @Around(value = "execution(* com.zhou.base.AOP.*.*(..))")
     public void doAround(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println("===========进入around环绕方法！=========== \n");
 
@@ -95,7 +75,6 @@ public class AspectAdvice {
      * @param jp
      * @param e
      */
-    @AfterThrowing(value = "execution(* com.zhou.base.AOP.*.*(..))", throwing = "e")
     public void doThrow(JoinPoint jp, Throwable e) {
         System.out.println("删除出错啦");
     }

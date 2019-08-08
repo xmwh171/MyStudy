@@ -12,7 +12,7 @@
           http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"
        default-autowire="byName">
 
-    <context:component-scan base-package="com.zhou.base.AOP" />
+    <context:component-scan base-package="com.zhou.base.Spring.AOP" />
     <!-- 打开aop 注解 -->
     <aop:aspectj-autoproxy />
 

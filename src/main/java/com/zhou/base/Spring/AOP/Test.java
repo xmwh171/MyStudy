@@ -1,8 +1,8 @@
-package com.zhou.base.AOP;
+package com.zhou.base.Spring.AOP;
 
-import com.zhou.base.AOP.aspectjMethod.Business;
-import com.zhou.base.AOP.interfaceMethod.IBaseBusiness;
-import com.zhou.base.AOP.schemaMethod.AspectBusiness;
+import com.zhou.base.Spring.AOP.aspectjMethod.Business;
+import com.zhou.base.Spring.AOP.interfaceMethod.IBaseBusiness;
+import com.zhou.base.Spring.AOP.schemaMethod.AspectBusiness;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
