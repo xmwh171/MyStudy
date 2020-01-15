@@ -90,6 +90,18 @@
             <artifactId>spring-webmvc</artifactId>
             <version>4.2.5.RELEASE</version>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba.spring.boot</groupId>-->
+            <!--<artifactId>dubbo-spring-boot-starter</artifactId>-->
+            <!--<version>2.0.0</version>-->
+        <!--</dependency>-->
+        <!-- https://mvnrepository.com/artifact/com.alibaba.boot/dubbo-spring-boot-starter -->
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>0.2.1.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 </project>
