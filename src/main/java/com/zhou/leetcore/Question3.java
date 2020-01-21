@@ -30,8 +30,8 @@ public class Question3 {
      */
 
     /**
-     *
-     * @param s
+     *  解题思路：当前重复字段减去之前重复字段最大位置的长度
+     * @param
      * @return
      */
     public static int lengthOfLongestSubstring(String s) {
@@ -49,7 +49,8 @@ public class Question3 {
     }
 
     public static void main(String[] args) {
-        System.out.println(lengthOfLongestSubstring("abcbadbb"));
+        String str ="abcabcbb";
+        System.out.println(lengthOfLongestSubstring(str));
     }
 
 }
