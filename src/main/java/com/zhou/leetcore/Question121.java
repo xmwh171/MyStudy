@@ -1,5 +1,7 @@
 package com.zhou.leetcore;
 
+import java.util.Arrays;
+
 /**
  * @Description 买卖股票的最佳时机
  * @Author xiaohu
@@ -23,10 +25,51 @@ public class Question121 {
      */
 
     /**
+     * 暴力解法
      * @param prices
      * @return
      */
-    public int maxProfit(int[] prices) {
-        return 0;
+    public static int maxProfit(int[] prices) {
+        int len = prices.length;
+        if (len < 2) {
+            return 0;
+        }
+        int min = prices[0];
+        int max = 0;
+        for (int i = 1; i < len; i++) {
+           min = Math.min(min,prices[i]);
+           if(prices[i]>min){
+               max = Math.max(max,prices[i]-min);
+           }
+        }
+        return max;
+    }
+
+    /**
+     * 动态规划
+     * @param prices
+     * @return
+     */
+    public static int maxProfit2(int[] prices) {
+        int len = prices.length;
+        if (len < 2) {
+            return 0;
+        }
+
+        int[] dp = new int[2];
+        dp[0] = 0;
+        dp[1] = -prices[0];
+        for (int i = 1; i < len; i++) {
+            dp[0] = Math.max(dp[0], dp[1] + prices[i]);
+            dp[1] = Math.max(dp[1], -prices[i]);
+        }
+        return dp[0];
+    }
+
+
+    public static void main(String[] args) {
+        int[] prices = {7,1,5,3,6,4};
+        System.out.println(maxProfit(prices));
+        System.out.println(maxProfit2(prices));
     }
 }

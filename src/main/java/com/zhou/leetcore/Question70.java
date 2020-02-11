@@ -27,10 +27,24 @@ public class Question70 {
      */
 
     /**
+     * 动态规划
+     * 定义状态：d[n]：表示爬上b阶的方法
+     * 状态方程：d[n] = d[n-1]+d[n-2]
+     * 初始化：d[0]=1,d[1]=1
      * @param n
      * @return
      */
-    public int climbStairs(int n) {
-        return 0;
+    public static int climbStairs(int n) {
+        int[] dp = new int[n+1];
+        dp[0]=1;
+        dp[1]=1;
+        for(int i=2;i<dp.length;i++){
+            dp[i]=dp[i-1]+dp[i-2];
+        }
+        return dp[n];
+    }
+
+    public static void main(String[] args) {
+        System.out.println(climbStairs(4));
     }
 }
