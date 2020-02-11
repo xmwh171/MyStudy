@@ -20,10 +20,15 @@ public class Question152 {
      */
 
     /**
+     *
+     *
+     * dp[i]为i处最大的乘积
+     *   dp[i] = dp
      * @param nums
      * @return
      */
     public int maxProduct(int[] nums) {
+
         return 0;
     }
 }
