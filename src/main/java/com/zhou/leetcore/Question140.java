@@ -1,6 +1,6 @@
 package com.zhou.leetcore;
 
-import java.util.List;
+import java.util.*;
 
 /**
  * @Description 单词拆分II
@@ -44,11 +44,44 @@ public class Question140 {
 
 
     /**
+     * 动态规划
+     * 官方题解，会超时
      * @param s
      * @param wordDict
      * @return
      */
-    public List<String> wordBreak(String s, List<String> wordDict) {
-        return null;
+    public static List<String> wordBreak(String s, Set<String> wordDict) {
+        LinkedList<String>[] dp = new LinkedList[s.length() + 1];
+        LinkedList<String> initial = new LinkedList<>();
+        initial.add("");
+        dp[0] = initial;
+        for (int i = 1; i <= s.length(); i++) {
+            LinkedList<String> list = new LinkedList<>();
+            for (int j = 0; j < i; j++) {
+                if (dp[j].size() > 0 && wordDict.contains(s.substring(j, i))) {
+                    for (String l : dp[j]) {
+                        list.add(l + (l.equals("") ? "" : " ") + s.substring(j, i));
+                    }
+                }
+            }
+            dp[i] = list;
+        }
+        return dp[s.length()];
     }
+
+    public static void main(String[] args) {
+        Set<String> wordDict = new HashSet<>();
+        wordDict.add("a");
+        wordDict.add("aa");
+        wordDict.add("aaa");
+        wordDict.add("aaaa");
+        wordDict.add("aaaaa");
+        wordDict.add("aaaaaa");
+        wordDict.add("aaaaaaa");
+        wordDict.add("aaaaaaaa");
+        wordDict.add("aaaaaaaaa");
+        wordDict.add("aaaaaaaaaa");
+        System.out.println(wordBreak("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",wordDict));
+    }
+
 }

@@ -1,6 +1,9 @@
 package com.zhou.leetcore;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @Description 单词拆分
@@ -29,11 +32,32 @@ public class Question139 {
      */
 
     /**
+     *
+     * dp[i]表示字符串s的前i个字符能否拆分成wordDict
+     * j为分割点，如果[j,i]为true,则dp[i]=dp[j]
      * @param s
      * @param wordDict
      * @return
      */
-    public boolean wordBreak(String s, List<String> wordDict) {
-        return false;
+    public static boolean wordBreak(String s, List<String> wordDict) {
+        Set<String> wordDictSet = new HashSet(wordDict);
+        boolean[] dp = new boolean[s.length() + 1];
+        dp[0] = true;
+        for (int i = 1; i <= s.length(); i++) {
+            for (int j = 0; j < i; j++) {
+                if (dp[j] && wordDictSet.contains(s.substring(j, i))) {
+                    dp[i] = true;
+                    break;
+                }
+            }
+        }
+        return dp[s.length()];
+    }
+
+    public static void main(String[] args) {
+        List<String> wordDict = new ArrayList<>();
+        wordDict.add("leet");
+        wordDict.add("code");
+        System.out.println(wordBreak("leetcode",wordDict));
     }
 }
