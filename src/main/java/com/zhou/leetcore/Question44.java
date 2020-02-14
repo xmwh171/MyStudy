@@ -47,11 +47,37 @@ public class Question44 {
      */
 
     /**
+     * dp[i][j]: s的前i个字符与p的前j个字符能否匹配
+     * 状态方程：
+     * s[i]=p[j]或p[j]=='?' 则 dp[i][j]=dp[i-1][j-1]
+     * p[j]='*' dp[i][j]=dp[i-1][j]||dp[i][j-1]
+     * 初始化：dp[][]=true;  dp[0][i] = dp[0][i - 1] && p[i] == *  即s的前0个字符和p的前i个字符能否匹配
+     *
      * @param s
      * @param p
      * @return
      */
-    public boolean isMatch(String s, String p) {
-        return false;
+    public static boolean isMatch(String s, String p) {
+        int m = s.length(), n = p.length();
+        boolean[][] f = new boolean[m + 1][n + 1];
+        f[0][0] = true;
+        for(int i = 1; i <= n; i++){
+            f[0][i] = f[0][i - 1] && p.charAt(i - 1) == '*';
+        }
+        for(int i = 1; i <= m; i++){
+            for(int j = 1; j <= n; j++){
+                if(s.charAt(i - 1) == p.charAt(j - 1) || p.charAt(j - 1) == '?'){
+                    f[i][j] = f[i - 1][j - 1];
+                }
+                if(p.charAt(j - 1) == '*'){
+                    f[i][j] = f[i][j - 1] || f[i - 1][j];
+                }
+            }
+        }
+        return f[m][n];
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isMatch("a","c*a*"));
     }
 }
