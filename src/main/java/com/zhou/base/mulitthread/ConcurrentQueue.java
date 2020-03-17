@@ -9,7 +9,7 @@ public class ConcurrentQueue {
         Queue<String> strs = new ConcurrentLinkedDeque<>();
 
         for(int i=0;i<10;i++){
-            strs.offer("a"+i);     // 添加一个元素并返回true
+            strs.offer("a"+i);     // 添加一个元素并返回trueRe
         }
 
         System.out.println(strs);
