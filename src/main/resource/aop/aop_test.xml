@@ -12,12 +12,12 @@
           http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"
        default-autowire="byName">
 
-    <bean id="aopInterfaceTestImpl" class="com.zhou.base.Test.AopInterfaceTestImpl"></bean>
-    <bean id="logHandler" class="com.zhou.base.Test.LogHandler"></bean>
+    <bean id="aopInterfaceTestImpl" class="com.zhou.java.Test.AopInterfaceTestImpl"></bean>
+    <bean id="logHandler" class="com.zhou.java.Test.LogHandler"></bean>
 
     <aop:config>
         <aop:aspect id="log" ref="logHandler">
-            <aop:pointcut id="AllMethod" expression="execution(* com.zhou.base.Test.*.*(..))"></aop:pointcut>
+            <aop:pointcut id="AllMethod" expression="execution(* com.zhou.java.Test.*.*(..))"></aop:pointcut>
             <aop:before method="handlePrepare" pointcut-ref="AllMethod"></aop:before>
             <aop:after method="handleAfter" pointcut-ref="AllMethod"></aop:after>
             <aop:around method="handleAround" pointcut-ref="AllMethod"></aop:around>

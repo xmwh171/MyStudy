@@ -14,16 +14,16 @@
 
     <!-- ==============================利用spring自己的aop配置================================ -->
     <!-- 声明一个业务类 -->
-    <bean id="baseBusiness" class="com.zhou.base.Spring.AOP.interfaceMethod.BaseBusiness" />
+    <bean id="baseBusiness" class="com.zhou.java.Spring.AOP.interfaceMethod.BaseBusiness" />
 
     <!-- 声明通知类 -->
-    <bean id="baseBefore" class="com.zhou.base.Spring.AOP.interfaceMethod.BaseBeforeAdvice" />
-    <bean id="baseAfterReturn" class="com.zhou.base.Spring.AOP.interfaceMethod.BaseAfterReturnAdvice" />
-    <bean id="baseAfterThrows" class="com.zhou.base.Spring.AOP.interfaceMethod.BaseAfterThrowsAdvice" />
-    <bean id="baseAround" class="com.zhou.base.Spring.AOP.interfaceMethod.BaseAroundAdvice" />
+    <bean id="baseBefore" class="com.zhou.java.Spring.AOP.interfaceMethod.BaseBeforeAdvice" />
+    <bean id="baseAfterReturn" class="com.zhou.java.Spring.AOP.interfaceMethod.BaseAfterReturnAdvice" />
+    <bean id="baseAfterThrows" class="com.zhou.java.Spring.AOP.interfaceMethod.BaseAfterThrowsAdvice" />
+    <bean id="baseAround" class="com.zhou.java.Spring.AOP.interfaceMethod.BaseAroundAdvice" />
 
     <!-- 指定切点匹配类 -->
-    <bean id="pointcut" class="com.zhou.base.Spring.AOP.interfaceMethod.Pointcut" />
+    <bean id="pointcut" class="com.zhou.java.Spring.AOP.interfaceMethod.Pointcut" />
 
     <!-- 包装通知，指定切点 -->
     <bean id="matchBeforeAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
@@ -39,7 +39,7 @@
     <bean id="businessProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
         <!-- 代理对象所实现的接口 ，如果有接口可以这样设置 -->
         <property name="proxyInterfaces">
-            <value>com.zhou.base.Spring.AOP.interfaceMethod.IBaseBusiness</value>
+            <value>com.zhou.java.Spring.AOP.interfaceMethod.IBaseBusiness</value>
         </property>
 
         <!-- 设置目标对象 -->

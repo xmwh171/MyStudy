@@ -15,15 +15,15 @@
     <!-- ==============================利用spring 利用aspectj来配置AOP================================ -->
 
     <!-- 声明一个业务类 -->
-    <bean id="aspectBusiness" class="com.zhou.base.Spring.AOP.schemaMethod.AspectBusiness" />
+    <bean id="aspectBusiness" class="com.zhou.java.Spring.AOP.schemaMethod.AspectBusiness" />
 
     <!-- 声明通知类 -->
-    <bean id="aspectAdvice" class="com.zhou.base.Spring.AOP.schemaMethod.AspectAdvice" />
+    <bean id="aspectAdvice" class="com.zhou.java.Spring.AOP.schemaMethod.AspectAdvice" />
 
     <aop:config>
         <aop:aspect id="businessAspect" ref="aspectAdvice">
             <!-- 配置指定切入的对象 -->
-            <aop:pointcut id="point_cut" expression="execution(* com.zhou.base.Spring.AOP.*.*(..))" />
+            <aop:pointcut id="point_cut" expression="execution(* com.zhou.java.Spring.AOP.*.*(..))" />
             <!-- 只匹配add方法作为切入点
             <aop:pointcut id="except_add" expression="execution(* com.zhou.base.AOP.*.add(..))" />
              -->

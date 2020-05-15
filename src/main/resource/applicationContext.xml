@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <beans>
-    <bean name="student" class="com.zhou.base.Spring.IOC.testByXml.entity.Student" >
+    <bean name="student" class="com.zhou.java.Spring.IOC.testByXml.entity.Student" >
         <property name="name" value="123"></property>
     </bean>
 
-    <bean name="teacher" class="com.zhou.base.Spring.IOC.testByXml.entity.Teacher">
+    <bean name="teacher" class="com.zhou.java.Spring.IOC.testByXml.entity.Teacher">
         <property name="student" ref="student"></property>
     </bean>
-    <bean name="person" class="com.zhou.base.Spring.IOC.testByXml.entity.Person" scope="prototype">
+    <bean name="person" class="com.zhou.java.Spring.IOC.testByXml.entity.Person" scope="prototype">
         <property name="teacher" ref="teacher"></property>
         <property name="student" ref="student"></property>
     </bean>
