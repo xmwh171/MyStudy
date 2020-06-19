@@ -13,7 +13,7 @@ public class TestReflect implements Serializable {
 
     private static final long serialVersionUID = -2862585049955236662L;
 
-    private String proprety = null;
+    private String property = null;
 
     public void reflect1() {
         System.out.println("Java 反射机制 - 调用某个类的方法1.");
@@ -194,7 +194,7 @@ public class TestReflect implements Serializable {
         Class<?> clazz = Class.forName("com.zhou.java.Base.reflection.TestReflect");
         Object obj = clazz.newInstance();
         // 可以直接对 private 的属性赋值
-        Field field = clazz.getDeclaredField("proprety");
+        Field field = clazz.getDeclaredField("property");
         field.setAccessible(true);
         field.set(obj, "Java反射机制");
         System.out.println(field.get(obj));

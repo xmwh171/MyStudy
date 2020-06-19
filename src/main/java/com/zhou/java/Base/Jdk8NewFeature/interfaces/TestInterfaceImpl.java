@@ -13,6 +13,12 @@ public class TestInterfaceImpl implements TestInterface,TestInterface2 {
 
     }
 
+    // 重写default方法
+    @Override
+    public String run(){
+        return "456";
+    }
+
     public static void main(String[] args) {
         TestInterfaceImpl impl = new TestInterfaceImpl();
         System.out.println(TestInterface.a);
@@ -20,6 +26,7 @@ public class TestInterfaceImpl implements TestInterface,TestInterface2 {
         System.out.println(impl.d2());
         System.out.println(TestInterface.s1());
         System.out.println(TestInterface.s2());
+        System.out.println(impl.run());
     }
 
 

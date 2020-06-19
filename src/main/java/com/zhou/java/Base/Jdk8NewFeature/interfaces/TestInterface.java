@@ -26,4 +26,9 @@ public interface TestInterface {
     static String s2(){
         return "静态方法2";
     }
+
+
+    default String run(){
+        return "123";
+    }
 }

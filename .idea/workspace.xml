@@ -1,162 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aca2e08-0bb9-4f0e-a03e-aceeacfc7659" name="Default" comment="华为机试题">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/WdtApiIntegration.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/BubbleSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/HeapAdjust.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/InsertSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/MergeSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/QuickSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/SelectionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/ShellSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterface2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterfaceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/lambda/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/lambda/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/other/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/other/TestOverloading.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/IO/NIOServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacadeImpl1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/TestCoin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/TestStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/T_PriorityBlockingQueue.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Base/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Base/lambda/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/BookFacadeImpl1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/T_PriorityBlockingQueue.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="4aca2e08-0bb9-4f0e-a03e-aceeacfc7659" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/$Proxy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/data.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/TempProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhClassLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhInvocationHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/A.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/ObjectCreation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/MyThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/TestThreadLocal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ThreadLocalDemo.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/WdtApiIntegration.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyStudy.iml" afterPath="$PROJECT_DIR$/MyStudy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resource/aop/aop_test.xml" afterPath="$PROJECT_DIR$/src/main/resource/aop/aop_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resource/aop/aspectj_aop.xml" afterPath="$PROJECT_DIR$/src/main/resource/aop/aspectj_aop.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resource/aop/schema_aop.xml" afterPath="$PROJECT_DIR$/src/main/resource/aop/schema_aop.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resource/aop/schema_aspect_aop.xml" afterPath="$PROJECT_DIR$/src/main/resource/aop/schema_aspect_aop.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resource/aop/test_bean.xml" afterPath="$PROJECT_DIR$/src/main/resource/aop/test_bean.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Base/KeyWord/TransientTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/KeyWord/TransientTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Base/Resource/FileSourceExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Resource/FileSourceExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Base/Resource/PatternResolverTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Resource/PatternResolverTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Base/reflection/Subject.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/Subject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Base/reflection/TestReflect.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Base/reflection/fruit.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/fruit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/DecoratorPattern/ArmsEquip.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/DecoratorPattern/ArmsEquip.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/DecoratorPattern/BlueGemDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/DecoratorPattern/BlueGemDecorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/DecoratorPattern/BracersEquip.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/DecoratorPattern/BracersEquip.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/DecoratorPattern/Equip.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/DecoratorPattern/Equip.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/DecoratorPattern/GemDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/DecoratorPattern/GemDecorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/DecoratorPattern/RedGemDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/DecoratorPattern/RedGemDecorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/DecoratorPattern/RingEquip.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/DecoratorPattern/RingEquip.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/DecoratorPattern/ShoesEquip.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/DecoratorPattern/ShoesEquip.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/DecoratorPattern/YellowGemDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/DecoratorPattern/YellowGemDecorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/Singleton/Singleton1.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/Singleton/Singleton1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/DesignPattern/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/DesignPattern/Test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Exception/MyException.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Exception/MyException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Exception/MyRuntimeException.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Exception/MyRuntimeException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Exception/ThrowTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Exception/ThrowTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Exception/TryWithResourceTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Exception/TryWithResourceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/IO/BufferedStreamDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/IO/BufferedStreamDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/IO/CopyFileDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/IO/CopyFileDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/IO/FileReaderDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/IO/FileReaderDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/IO/FileWriteDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/IO/FileWriteDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/JVM/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/JVM/Book.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/JVM/Book2.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/JVM/Book2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/JVM/ConstClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/JVM/ConstClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/JVM/SuperClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/JVM/SuperClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/JVM/SuperClass2.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/JVM/SuperClass2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/Test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/aspectjMethod/AspectAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/AspectAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/aspectjMethod/Business.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/Business.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/interfaceMethod/BaseAfterReturnAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseAfterReturnAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/interfaceMethod/BaseAfterThrowsAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseAfterThrowsAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/interfaceMethod/BaseAroundAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseAroundAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/interfaceMethod/BaseBeforeAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseBeforeAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/interfaceMethod/BaseBusiness.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseBusiness.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/interfaceMethod/IBaseBusiness.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/IBaseBusiness.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/interfaceMethod/Pointcut.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/Pointcut.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/schemaMethod/AspectAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/schemaMethod/AspectBusiness.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectBusiness.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/BookFacade.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/BookFacadeCglib.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacadeCglib.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/BookFacadeImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacadeImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/BookFacadeProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacadeProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/Count.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/Count.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/CountImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/CountImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/CountProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/CountProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/TestCglib.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/TestCglib.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/TestCount.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/TestCount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/AOP/test/TestProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/TestProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/Component.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/Component.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/Inject.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/Inject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/IocContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/IocContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/IocUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/IocUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/TestNoAnnotationClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/TestNoAnnotationClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/TestNoInjectClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/TestNoInjectClass.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByInject/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByInject/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/config/Bean.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/config/Bean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/config/Property.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/config/Property.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/config/parse/ConfigManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/config/parse/ConfigManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/entity/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/entity/Person.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/entity/Student.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/entity/Student.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/entity/Teacher.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/entity/Teacher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/entity/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/main/BeanFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/main/BeanFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/main/ClassPathXmlApplicationContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/main/ClassPathXmlApplicationContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/IOC/testByXml/main/TestBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/IOC/testByXml/main/TestBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Spring/Test/LocalDateController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/Test/LocalDateController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/AopInterfaceTestImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/AopInterfaceTestImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/CglibProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/CglibProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/Debug.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/Debug.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/DynamicProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/DynamicProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/Greeting.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/Greeting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/GreetingAroundAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/GreetingAroundAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/GreetingBeforeAndAfterAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/GreetingBeforeAndAfterAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/GreetingImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/GreetingImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/HwQ_1.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/HwQ_1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/HwQ_2.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/HwQ_2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/IAopInterfaceTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/IAopInterfaceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/ITalk.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/ITalk.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/LogHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/LogHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/Love.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/Love.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/LoveAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/LoveAdvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/PeopleTalk.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/PeopleTalk.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/TalkProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/TalkProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/Test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/collection/TestArrayList.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/collection/TestArrayList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/collection/TestIterator.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/collection/TestIterator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/ConcurrentMap.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ConcurrentMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/ConcurrentQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ConcurrentQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/MyExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/MyExecutor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/MyQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/MyQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/T_ArrayBlockingQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/T_ArrayBlockingQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/T_CopyOnWrite.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/T_CopyOnWrite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/T_DelayQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/T_DelayQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/T_Future.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/T_Future.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/T_LinkedBlockingQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/T_LinkedBlockingQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/T_SynchronousQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/T_SynchronousQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/T_ThreadPool.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/T_ThreadPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/T_WorkStealingPool.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/T_WorkStealingPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/TestThreadPoolExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/TestThreadPoolExecutor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/ThreadDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ThreadDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/ThreadDemo2.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ThreadDemo2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/ThreadDemo3.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ThreadDemo3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/ThreadDemo4.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ThreadDemo4.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/ThreadDemo5.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ThreadDemo5.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/TicketSeller1.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/TicketSeller1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/TicketSeller2.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/TicketSeller2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/TicketSeller3.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/TicketSeller3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/base/mulitthread/TicketSeller4.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/TicketSeller4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/QuickSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/QuickSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterface.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterfaceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterfaceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacade.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacade.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacadeImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacadeImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacadeProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacadeProxy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/TestProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/TestProxy.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -166,116 +34,100 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MyStudy$TestProxy.coverage" NAME="TestProxy Coverage Results" MODIFIED="1592533195256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zhou.java.Spring.AOP.jdkProxy.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestInterfaceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterfaceImpl.java">
+      <file leaf-file-name="BookFacadeProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacadeProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestOverloading.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/other/TestOverloading.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="102">
+              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
               <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/other/Animal.java">
+      <file leaf-file-name="InvocationHandler.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/InvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-              <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="693">
+              <caret line="92" column="3" lean-forward="false" selection-start-line="92" selection-start-column="3" selection-end-line="93" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/SelectionSort.java">
+      <file leaf-file-name="XhProxy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XhClassLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TempProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/TempProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XhInvocationHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhInvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/InsertSort.java">
+      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="282">
+              <caret line="702" column="3" lean-forward="false" selection-start-line="702" selection-start-column="3" selection-end-line="704" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/ShellSort.java">
+      <file leaf-file-name="TestProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/TestProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="4" column="132" lean-forward="false" selection-start-line="4" selection-start-column="132" selection-end-line="4" selection-end-column="132" />
+            <state relative-caret-position="238">
+              <caret line="20" column="129" lean-forward="false" selection-start-line="20" selection-start-column="129" selection-end-line="20" selection-end-column="129" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/QuickSort.java">
+      <file leaf-file-name="$Proxy.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/$Proxy.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeapAdjust.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/HeapAdjust.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="-238">
+              <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -297,6 +149,15 @@
       <find>AspectAdvice</find>
       <find>Advice</find>
       <find>matchBeforeAdvisor</find>
+      <find>threadLocal</find>
+      <find>initialValue</find>
+      <find>ThreadLocal</find>
+      <find>最终金额</find>
+      <find>ThreadPoolExecutor</find>
+      <find>defineClass</find>
+      <find>FileInputStream</find>
+      <find>setAccessible</find>
+      <find>invoke</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -310,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/ReplaceStr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/HwQ_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/HwQ_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/base/Test/WatcherTest.java" />
@@ -336,9 +196,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/ShellSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/HeapAdjust.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ThetThreadLocal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/TestThreadLocal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/ThreadLocalDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterfaceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/SubA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/TestObjectCreate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Test/ObjectCreation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacadeCglib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacadeImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacadeImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/Proxy0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/TestProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacadeProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/TempProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhProxy.java" />
       </list>
     </option>
   </component>
@@ -356,8 +239,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-337" />
-    <option name="y" value="95" />
+    <option name="x" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1040" />
   </component>
@@ -380,8 +262,9 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -443,7 +326,46 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhou" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhou" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhou" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="jdkProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhou" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="jdkProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="principle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -488,7 +410,7 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -496,28 +418,29 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/program/toolmall-erp-new/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gupaoedu-vip-proxy" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15344311" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study\MyStudy\src\main\java\com\zhou\java\Spring\AOP\jdkProxy" />
       <recent name="E:\study\MyStudy\src\main\java\com\zhou\base\Base\reflection" />
       <recent name="E:\study\MyStudy\src\main\java\com\zhou\base\Base\lambda" />
     </key>
@@ -534,53 +457,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+  <component name="RunManager" selected="Application.TestProxy">
+    <configuration name="ObjectCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.zhou.java.Algorithm.*" />
+          <option name="PATTERN" value="com.zhou.java.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zhou.java.Algorithm.BubbleSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MyStudy" />
-      <envs />
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zhou.java.Spring.AOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zhou.java.Spring.AOP.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MyStudy" />
-      <envs />
-    </configuration>
-    <configuration name="TestDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zhou.java.Base.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zhou.java.Base.other.TestDog" />
+      <option name="MAIN_CLASS_NAME" value="com.zhou.java.Test.ObjectCreation" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -593,7 +478,7 @@
       <envs />
     </configuration>
     <configuration name="TestInterfaceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.zhou.java.Base.Jdk8NewFeature.interfaces.*" />
           <option name="ENABLED" value="true" />
@@ -611,14 +496,52 @@
       <module name="MyStudy" />
       <envs />
     </configuration>
-    <configuration name="TestOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.zhou.java.Base.other.*" />
+          <option name="PATTERN" value="com.zhou.java.Spring.AOP.jdkProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zhou.java.Base.other.TestOverloading" />
+      <option name="MAIN_CLASS_NAME" value="com.zhou.java.Spring.AOP.jdkProxy.TestProxy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MyStudy" />
+      <envs />
+    </configuration>
+    <configuration name="TestReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zhou.java.Base.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zhou.java.Base.reflection.TestReflect" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MyStudy" />
+      <envs />
+    </configuration>
+    <configuration name="ThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zhou.java.mulitthread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zhou.java.mulitthread.ThreadLocalDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -631,10 +554,13 @@
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="HEIGHT" value="0" />
+      <option name="WIDTH" value="0" />
       <module />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -649,6 +575,9 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -659,7 +588,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
@@ -669,19 +598,18 @@
       </option>
       <envs />
       <patterns />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -694,7 +622,7 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
@@ -709,26 +637,32 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestInterfaceImpl" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestOverloading" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestDog" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BubbleSort" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ThreadLocalDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestReflect" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ObjectCreation" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestInterfaceImpl" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestProxy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BubbleSort" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestDog" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestOverloading" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestInterfaceImpl" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestProxy" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestInterfaceImpl" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ObjectCreation" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestReflect" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ThreadLocalDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -748,7 +682,24 @@
       <workItem from="1588837358940" duration="761000" />
       <workItem from="1589000167501" duration="3919000" />
       <workItem from="1589160287460" duration="686000" />
-      <workItem from="1589509074692" duration="10142000" />
+      <workItem from="1589509074692" duration="10876000" />
+      <workItem from="1589763577486" duration="605000" />
+      <workItem from="1589793437341" duration="2872000" />
+      <workItem from="1590111123223" duration="18044000" />
+      <workItem from="1590368400925" duration="1856000" />
+      <workItem from="1590383024612" duration="52000" />
+      <workItem from="1590641944995" duration="1110000" />
+      <workItem from="1590651990151" duration="3775000" />
+      <workItem from="1591263834441" duration="1795000" />
+      <workItem from="1591333743819" duration="11265000" />
+      <workItem from="1591578025938" duration="10701000" />
+      <workItem from="1591670622400" duration="813000" />
+      <workItem from="1591688933328" duration="609000" />
+      <workItem from="1591689788774" duration="3046000" />
+      <workItem from="1592271890363" duration="654000" />
+      <workItem from="1592384244440" duration="863000" />
+      <workItem from="1592473628641" duration="716000" />
+      <workItem from="1592532626310" duration="15057000" />
     </task>
     <task id="LOCAL-00001" summary="华为机试题">
       <created>1586511977438</created>
@@ -757,43 +708,60 @@
       <option name="project" value="LOCAL" />
       <updated>1586511977438</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="排序算法">
+      <created>1589536109177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589536109177</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45917000" />
+    <option name="totallyTimeSpent" value="120484000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33147943" sideWeight="0.5234541" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33147943" sideWeight="0.47654584" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.092750534" sideWeight="0.49610677" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.48294243" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2224694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.092750534" sideWeight="0.5038932" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22921109" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -804,312 +772,203 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="华为机试题" />
-    <option name="LAST_COMMIT_MESSAGE" value="华为机试题" />
+    <MESSAGE value="排序算法" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Test/HwQ_2.java</url>
-          <line>43</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>54</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/IO/NIOServer.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>63</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/IO/NIOServer.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>80</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/AspectAdvice.java</url>
-          <line>73</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>112</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/AspectAdvice.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>143</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/AspectAdvice.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>181</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/AspectAdvice.java</url>
-          <line>99</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>193</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/Business.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>208</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/Business.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>218</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/Business.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>231</line>
           <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseAfterReturnAdvice.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>241</line>
           <properties />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseAfterThrowsAdvice.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>249</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseAroundAdvice.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>264</line>
           <properties />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseBeforeAdvice.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseBusiness.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseBusiness.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseBusiness.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
           <line>26</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/Pointcut.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>18</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectAdvice.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java</url>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectAdvice.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectAdvice.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectAdvice.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectBusiness.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectBusiness.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectBusiness.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/Test.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/Test.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/Test.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/Test.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/BubbleSort.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question70.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/mulitthread/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="138">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question91.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="262">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question121.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="236">
+          <caret line="140" column="48" lean-forward="false" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question139.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="26911">
+          <caret line="1660" column="58" lean-forward="false" selection-start-line="1660" selection-start-column="58" selection-end-line="1660" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question140.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question152.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="297">
+          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question198.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question279.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="442">
+          <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question300.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/fruit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="765">
+          <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Test/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Test/SubA.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Test/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/leetcore/Question322.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="49" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="49" selection-end-column="49" />
+        <state relative-caret-position="5525">
+          <caret line="392" column="13" lean-forward="false" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Test/TestCoin.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/base/Base/lambda/WdtApiIntegration.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/lambda/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.aspectj.lang.ProceedingJoinPoint">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.aspectj.lang.ProceedingJoinPoint</OriginalElement>
-          <nodes>
-            <node x="" y="">org.aspectj.lang.JoinPoint</node>
-            <node x="" y="">org.aspectj.lang.ProceedingJoinPoint</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="56.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/aop/aspectj_aop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="5848">
+          <caret line="405" column="13" lean-forward="false" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1122,10 +981,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacade.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Test/TestObjectCreate.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Test/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="816">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Test/ObjectCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/lambda/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/lambda/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,25 +1029,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/AspectAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-          <folding>
-            <element signature="e#2656#2657#0" expanded="true" />
-            <element signature="e#2699#2700#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/aspectjMethod/Business.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/test/BookFacadeImpl1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1187,16 +1072,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/support/DefaultPointcutAdvisor.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/IBaseBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="187">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
@@ -1204,211 +1090,196 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/Pointcut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="204">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/aop/schema_aop.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/reflection/TestReflect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        <state relative-caret-position="326">
+          <caret line="247" column="9" lean-forward="true" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/interfaceMethod/BaseBusiness.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterfaceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectBusiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/schemaMethod/AspectAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/aop/schema_aspect_aop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="72" lean-forward="false" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/test/test_resource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/lambda/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterface2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="289">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/Jdk8NewFeature/interfaces/TestInterfaceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/other/TestOverloading.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/presentation/rmi/StubInvocationHandlerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/base/Base/other/Dog2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="278">
+          <caret line="158" column="27" lean-forward="false" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Base/other/Animal.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/SelectionSort.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="221">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/InsertSort.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/MethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1666">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/ShellSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacadeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="4" column="132" lean-forward="false" selection-start-line="4" selection-start-column="132" selection-end-line="4" selection-end-column="132" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/QuickSort.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/AccessibleObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="281">
+          <caret line="132" column="36" lean-forward="true" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/MergeSort.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/Reflection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/$Proxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/TestProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="129" lean-forward="false" selection-start-line="20" selection-start-column="129" selection-end-line="20" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/Proxy0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="483" column="18" lean-forward="false" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="702" column="3" lean-forward="false" selection-start-line="702" selection-start-column="3" selection-end-line="704" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="92" column="3" lean-forward="false" selection-start-line="92" selection-start-column="3" selection-end-line="93" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/TempProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/BookFacadeProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Algorithm/HeapAdjust.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhInvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhou/java/Spring/AOP/jdkProxy/principle/XhProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1470,7 +1341,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
