@@ -37,6 +37,13 @@ public class Test {
             }
         };
 
+
+        System.out.println("listMore:");
+        List<String> listMore = students.stream()
+                .filter(student -> "计算机科学".equals(student.getMajor()))
+                .map(name->name.getName()+name.getMajor()).collect(Collectors.toList());
+        System.out.println(listMore);
+
         System.out.println("------------------中间操作-----------------");
         System.out.println("filter:");
         List<Student> whuStudents = students.stream()
