@@ -23,7 +23,7 @@ public class NettyByteBuf01 {
         // readerindex---writerIndex ， 可读的区域
         // writerIndex -- capacity, 可写的区域
 
-        ByteBuf buffer = Unpooled.buffer(20);
+        ByteBuf buffer = Unpooled.buffer(10);
         for(int i = 0; i < 10; i++) {
             buffer.writeByte(i);
         }
@@ -37,6 +37,18 @@ public class NettyByteBuf01 {
         for(int i = 0; i < buffer.capacity(); i++) {
             System.out.println(buffer.readByte());
         }
+        System.out.println("capacity=" + buffer.capacity());
+
+        for(int i =11; i < 20; i++) {
+            buffer.writeByte(i);
+        }
+
+        System.out.println("capacity=" + buffer.capacity());
+
+        for(int i = 11; i < 20; i++) {
+            System.out.println(buffer.readByte());
+        }
+        System.out.println("capacity=" + buffer.capacity());
         System.out.println("执行完毕");
     }
 
