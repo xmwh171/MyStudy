@@ -1,4 +1,4 @@
-package com.zhou.java.Algorithm;
+package com.zhou.java.Algorithm.sort;
 
 /**
  * @Description

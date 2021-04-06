@@ -6,18 +6,16 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * 腾讯课堂搜索 咕泡学院
- * 加群获取视频：608583947
- * 风骚的Michael 老师
+ *
  */
 public class RWLock {
 
-    static ReentrantReadWriteLock wrl=new ReentrantReadWriteLock();
+    static ReentrantReadWriteLock wrl = new ReentrantReadWriteLock();
 
-    static Map<String,Object> cacheMap=new HashMap<>();
+    static Map<String,Object> cacheMap = new HashMap<>();
 
-    static Lock read=wrl.readLock();
-    static Lock write=wrl.writeLock();
+    static Lock read = wrl.readLock();
+    static Lock write = wrl.writeLock();
 
     //线程B/C/D
     public static final Object get(String key){
@@ -38,8 +36,6 @@ public class RWLock {
             write.unlock();
         }
     }
-
-
 
     public static void main(String[] args) {
         wrl.readLock();//B线程 ->阻塞
