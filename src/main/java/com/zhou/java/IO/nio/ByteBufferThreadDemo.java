@@ -13,8 +13,8 @@ public class ByteBufferThreadDemo {
 
     public static void main(String[] args) {
         ByteBufferThreadDemo demo = new ByteBufferThreadDemo();
-      //  demo.getPut();       线程不安全
-        demo.getPutSync();    //  如果一个缓冲区要由多个线程使用，则应通过适当的同步来控制对该缓冲区的访问
+       demo.getPut();      // 线程不安全
+       // demo.getPutSync();    //  如果一个缓冲区要由多个线程使用，则应通过适当的同步来控制对该缓冲区的访问
     }
 
 

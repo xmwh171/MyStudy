@@ -1,12 +1,8 @@
 package com.zhou.java.Spring.AOP.jdkProxy;
 
-import com.zhou.java.Spring.AOP.jdkProxy.BookFacade;
-import com.zhou.java.Spring.AOP.jdkProxy.BookFacadeImpl;
-import com.zhou.java.Spring.AOP.jdkProxy.BookFacadeProxy;
 import sun.misc.ProxyGenerator;
 
 import java.io.FileOutputStream;
-import java.io.IOException;
 
 public class TestProxy {
 
